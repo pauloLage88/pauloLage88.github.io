@@ -1,12 +1,19 @@
 body{
     background-color:#e5e5e5;
-    color: #14213d;
+    color: #03045e;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+
+}
+div{
+    text-align: center;
 }
 h1{ 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #14213d;
 }
+h2{
+    color: #fb8500;
+}
 h4{
-    color: #fca311;
+    color: #023047;
 }
