@@ -35,7 +35,11 @@ h4{
     ;
 }
 .linkTrybe{
-    color: #15602b;
+    color: white;
+    background-color: #29a36b;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 10px;
 }
 .testimonialPhoto{
     border-radius: 80px;
