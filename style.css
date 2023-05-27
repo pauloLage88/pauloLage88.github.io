@@ -6,7 +6,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 div{
-    border: solid black;
+    /* border: solid black; */
 }
 h1{ 
     font-size: 55px;
@@ -15,6 +15,7 @@ h1{
 }
 h2{
     color: #fb8500;
+    
 }
 h4{
     color: #fca311;
@@ -26,7 +27,7 @@ h4{
     overflow: auto;
 }
 #photo{
-    width: 45%;
+    width: 400px;
     text-align: center;
     position: relative;
     
@@ -36,19 +37,18 @@ h4{
 }
 #about{
     position: absolute;
-    left: 45%;
-    top: 150px;
-    width: 50%;
+    left: 420px;
+    top: 152px;
+    width: 290px;
     max-height: 380px;
     overflow-y: scroll;
-    
+    text-align: center;
 }
 .list{
     font-size: 20px;
 }
 .link{
     color: #fca311;
-    ;
 }
 .linkTrybe{
     color: white;
