@@ -5,6 +5,20 @@ body{
     color: #03045e;
     font-family: 'Montserrat', sans-serif;
 }
+.container1{
+    border: solid rebeccapurple;
+    padding-right: 1px;
+    overflow: auto;
+}
+.float-filho{
+    float: left;
+    border: solid red;
+    width: 49%;
+}
+.container2{
+    border: solid green;
+    text-align: left;
+}
 div{
     text-align: center;
 }
@@ -22,11 +36,7 @@ h4{
 #paulo{
     color: #14213d;
 }
-.center{
-    margin: auto;
-    width: 90vw;
-    padding: 30px;
-}
+
 .list{
     font-size: 20px;
 }
