@@ -16,11 +16,13 @@ h1{
 }
 h2{
     color: #fb8500;
+    position:
     
 }
 h5{
     color: #fca311;
 }
+
 #name{
     text-align: center;
 }
@@ -41,9 +43,9 @@ h5{
     /* bottom: 200px; */
     /* left: 50%; */
     width: 59%;
-    /* max-height: 400px; */
+    max-height: 400px;
     /* min-width: 400px; */
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     text-align: center;
     float: right;
 }
@@ -62,4 +64,6 @@ h5{
 }
 .testimonialPhoto{
     border-radius: 80px;
+    padding: 10px;
+    background-color: #14213d;
 }
