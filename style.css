@@ -4,9 +4,10 @@ body{
     background-color:#e5e5e5;
     color: #03045e;
     font-family: 'Montserrat', sans-serif;
+
 }
 div{
-    text-align: center;
+    /* border: solid black; */
 }
 h1{ 
     font-size: 55px;
@@ -16,26 +17,41 @@ h1{
 h2{
     color: #fb8500;
 }
-h4{
+h5{
     color: #fca311;
+}
+
+#name{
+    text-align: center;
+}
+#container1{
+    overflow: auto;
+}
+#photo{
+    width: 40%;
+    text-align: center;
+    /* min-width: 400px; */
+    float: left;
 }
 #paulo{
     color: #14213d;
 }
-#skills{
-    text-align: left;
-}
-.center{
-    margin: auto;
-    width: 90vw;
-    padding: 30px;
+#about{
+    /* position: relative; */
+    /* bottom: 200px; */
+    /* left: 50%; */
+    width: 59%;
+    max-height: 400px;
+    /* min-width: 400px; */
+    overflow-y: scroll;
+    text-align: center;
+    float: right;
 }
 .list{
     font-size: 20px;
 }
 .link{
     color: #fca311;
-    ;
 }
 .linkTrybe{
     color: white;
@@ -46,4 +62,6 @@ h4{
 }
 .testimonialPhoto{
     border-radius: 80px;
+    padding: 10px;
+    background-color: #14213d;
 }
