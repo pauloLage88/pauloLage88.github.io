@@ -16,8 +16,6 @@ h1{
 }
 h2{
     color: #fb8500;
-    position:
-    
 }
 h5{
     color: #fca311;
@@ -45,7 +43,7 @@ h5{
     width: 59%;
     max-height: 400px;
     /* min-width: 400px; */
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     text-align: center;
     float: right;
 }
