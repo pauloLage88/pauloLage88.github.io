@@ -7,6 +7,7 @@ body{
 }
 div{
     text-align: center;
+    border: solid black;
 }
 h1{ 
     font-size: 55px;
@@ -21,6 +22,9 @@ h4{
 }
 #paulo{
     color: #14213d;
+}
+#skills{
+    text-align: left;
 }
 .center{
     margin: auto;
