@@ -5,22 +5,8 @@ body{
     color: #03045e;
     font-family: 'Montserrat', sans-serif;
 }
-.container1{
-    border: solid rebeccapurple;
-    padding-right: 1px;
-    overflow: auto;
-}
-.float-filho{
-    float: left;
-    border: solid red;
-    width: 49%;
-}
-.container2{
-    border: solid green;
-    text-align: left;
-}
 div{
-    text-align: center;
+    border: solid black;
 }
 h1{ 
     font-size: 55px;
@@ -33,10 +19,30 @@ h2{
 h4{
     color: #fca311;
 }
+#name{
+    text-align: center;
+}
+#container1{
+    overflow: auto;
+}
+#photo{
+    width: 45%;
+    text-align: center;
+    position: relative;
+    
+}
 #paulo{
     color: #14213d;
 }
-
+#about{
+    position: absolute;
+    left: 45%;
+    top: 150px;
+    width: 50%;
+    max-height: 380px;
+    overflow-y: scroll;
+    
+}
 .list{
     font-size: 20px;
 }
