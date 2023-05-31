@@ -18,29 +18,35 @@ h5{
     color: #fca311;
 }
 
-#name{
+nav ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #fca311;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.navigationLinks ul li {
+    list-style: none;
+    display: inline;
+}
+
+header {
     text-align: center;
 }
-#container1{
-    border: solid;
-    overflow: auto;
-}
+
 #photo{
     width: 40%;
     text-align: center;
-    /* min-width: 400px; */
     float: left;
 }
 #paulo{
     color: #14213d;
 }
 #about{
-    /* position: relative; */
-    /* bottom: 200px; */
-    /* left: 50%; */
     width: 59%;
     max-height: 400px;
-    /* min-width: 400px; */
     overflow-y: scroll;
     text-align: center;
     float: right;
@@ -48,9 +54,7 @@ h5{
 .list{
     font-size: 20px;
 }
-.link{
-    color: #fca311;
-}
+
 .linkTrybe{
     color: white;
     background-color: #29a36b;
