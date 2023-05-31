@@ -22,6 +22,7 @@ h5{
     text-align: center;
 }
 #container1{
+    border: solid;
     overflow: auto;
 }
 #photo{
