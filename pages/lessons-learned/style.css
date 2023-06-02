@@ -118,10 +118,6 @@ th , td {
   overflow: scroll;
 }
 
-td:empty {
-  visibility: hidden;
-}
-
 #buttonLink {
   background-color: rgb(15, 146, 15);
   color: white;
