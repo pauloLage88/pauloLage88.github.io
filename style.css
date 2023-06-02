@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,900;1,100;1,300;1,600;1,700;1,900&display=swap');
-
-body{
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,900;1,100;1,300;1,600;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,300;0,600;0,700;0,900;1,100;1,300;1,600;1,700;1,900&display=swap');
+body {
     background-color:#e5e5e5;
     color: #03045e;
     font-family: 'Montserrat', sans-serif;
@@ -11,21 +11,19 @@ header {
     font-size: 40px;
     color: #14213d;
     font-family: 'Montserrat', sans-serif;
-    /* border: solid; */
 }
 
-h2{
+h2 {
     color: #fb8500;
 }
 
-h5{
+h5 {
     color: #14213d;
 }
 
 nav {
     text-align: center;
     margin-bottom: 60px;
-    /* border: solid; */
 }
 
 .navigationBar ul li {
@@ -33,7 +31,7 @@ nav {
     display: inline;
 }
 
-nav ul li a{
+nav ul li a {
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -52,40 +50,47 @@ aside {
     float: left;
 }
 
-#paulo{
+article {
+    /* float:left; */
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+#paulo {
     color: #14213d;
     font-weight: bold;
 }
 
-#about{
+.containerRigth {
     width: 59%;
     text-align: center;
     float: right;
     border: 10px solid #14213d;
     border-radius: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
 }
 
-.skillsList{
+.skillsList {
     font-size: 18px;
     text-align: left;
 }
 
-.linkTrybe{
+.linkTrybe {
     color: white;
     background-color: #29a36b;
     text-decoration: none;
 }
-.testimonialPhoto{
+.testimonialPhoto {
     width: 80%;
     border-radius: 80px;
-    /* padding: 10px; */
     margin-top: 20px;
     background-color: #fca311;
 }
 
 footer {
     clear: both;
-    /* border: solid; */
     padding: 20px;
     text-align: center;
 }
