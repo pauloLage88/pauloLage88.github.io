@@ -36,17 +36,12 @@ footer {
   border-radius: 20px;
 }
 
-.content-container {
-  overflow: auto;
-  width: 95%;
-  margin: auto;
-  margin-top: 100px;
-}
 
 .lado-esquerdo {
   float: left;
-  overflow: auto;
   width: 35%;
+  margin-top: 200px;
+  margin-bottom: 100px;
   min-width: 300px;
   text-align: center;
   background-color: rgb(20, 33, 61);
@@ -67,7 +62,7 @@ footer {
   padding: 20px;
   overflow-x: scroll;
   width: 40%;
-  margin-top: 5%;
+  margin-top: 200px;
   margin-right: 10%;
   background-color: rgb(252, 163, 17);
   border-radius: 60px;
