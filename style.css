@@ -53,10 +53,10 @@ aside {
 }
 
 article {
-    /* float:left; */
     text-align: center;
-    width: 70%;
+    width: 80%;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 #paulo {
